@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <style>
+         body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .profile-pic {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 0 10px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #3498db;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .button:hover {
+            background-color: #2c3e50;
+            border-color: #2c3e50;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="profile-pic" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRl8xlNWVFWaEOdbP10sMdN8JTs9ysBWehS9w&usqp=CAU" alt="vex">
+        <h1>Logan</h1>
+        <p>Web Developer | Designer</p>
+        <p>Welcome to my portfolio. Click some buttons below 👀</p>
+        
+        <div class="button-container">
+            <!-- Updated href attribute for the "Buy" button -->
+            <a class="button" href="https://vexweb0.github.io/NAN/" target="_blank">Buy</a>
+            <a class="button" href="https://vexweb0.github.io/Info/">Info</a>
+        </div>
+    </div>
+</body>
+</html>
